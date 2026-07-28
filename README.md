@@ -2,28 +2,39 @@
 
 ## Project Overview
 
-After beginning to invest in my own Roth IRA, I became interested in how different saving habits, investment returns, and retirement assumptions could affect long-term financial outcomes. Wanting to apply my actuarial and statistical programming skills to a topic that genuinely interested me, I developed this retirement planning application.
+After opening and beginning to contribute my own Roth IRA, I became interested in how different saving habits, investment returns, and retirement assumptions could affect long-term financial outcomes. Wanting to apply my actuarial and statistical programming skills to a topic that interested me, I developed this retirement planning application.
 
-The project combines R, Excel, and VBA to perform Monte Carlo simulations of retirement portfolios under thousands of possible market scenarios. Users can modify retirement assumptions directly in Excel and run the simulation with a single button, automatically generating updated projections, summary statistics, and visualizations.
+This project combines R, Excel, and VBA to perform Monte Carlo simulations of retirement portfolios under thousands of possible market scenarios. Users can modify retirement assumptions directly in Excel and run the simulation with a single button, automatically generating updated projections, summary statistics, and visualizations.
 
+Beyond strengthening my programming and actuarial modeling skills, I wanted to build a tool that I could continue using and expanding over time. I plan to continue expanding the simulator as my knowledge of investing and retirement planning grows, creating a practical application that helps me better understand the long-term impact of financial decisions made early in life.
+
+## Key Skills Demonstrated
+
+- Monte Carlo simulation
+- Statistical modeling
+- R programming
+- Excel automation
+- VBA development
+- Financial modeling
+- Data visualization
+  
 ## Features
 
-- Interactive Excel interface for retirement assumptions
-- Monte Carlo simulation engine written in R
+- Built an interactive Excel interface for user-defined retirement assumptions
+- Developed a Monte Carlo simulation engine in R to model thousands of retirement outcomes
 - Automated communication between Excel and R using VBA
-- Retirement success probability calculation
-- Summary statistics for ending retirement balances
-- Annual retirement projection table
-- Dynamic retirement balance visualization
-- Input validation to prevent invalid simulations
+- Calculated retirement success probabilities and summary portfolio statistics
+- Generated year-by-year retirement balance projections
+- Created dynamic visualizations of projected retirement balances
+- Implemented input validation to prevent invalid simulations
 
 ## Technologies Used
 
-- R
-- Excel
-- VBA
-- Monte Carlo Simulation
-- Statistical Modeling
+Primary Languages: R, VBA
+
+Tools: Microsoft Excel
+
+Methods: Monte Carlo Simulation, Statistical Modeling
 
 ## How It Works
 
@@ -47,20 +58,27 @@ The project combines R, Excel, and VBA to perform Monte Carlo simulations of ret
 
 Retirement-Monte-Carlo-Simulator/
 
-├── Excel/
-│   └── Retirement_Simulator_Final.xlsm
-│
-├── R/
-│   ├── monte_carlo_simulation.R
-│   ├── load_assumptions.R
-│   └── visualizations.R
-│
-├── Images/
-│   ├── inputs.png
-│   ├── results.png
-│   └── projection.png
-│
-└── README.md
+  Excel/
+  
+    Retirement_Simulator_Final.xlsm
+
+  R/
+  
+    monte_carlo_simulation.R
+    
+    load_assumptions.R
+    
+    visualizations.R
+
+  Images/
+  
+    inputs.png
+    
+    results.png
+    
+    projection.png
+
+  README.md
 
 ## Screenshots
 
@@ -78,7 +96,7 @@ The application reports retirement success probability along with summary statis
 
 ### Projection
 
-A year-by-year projection illustrates how the retirement account balance evolves throughout accumulation and retirement.
+A single projection illustrates a potential retirement account balance based on one simulated result.
 
 ![Projection](Images/projection.png)
 
@@ -89,6 +107,9 @@ A year-by-year projection illustrates how the retirement account balance evolves
 - Model taxes and Social Security income
 - Include historical return simulations
 - Add sensitivity analysis and additional charts
+- Add ability to contribute at different times throughout each year
+
+This project was intentionally designed to be modular, making it straightforward to incorporate additional retirement planning assumptions and investment models as it evolves.
 
 ## Author
 
